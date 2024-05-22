@@ -1,25 +1,23 @@
-from dash import Dash, dcc, html, Input, Output, callback
+from dash import Dash, dcc, html, Input, Output, callback, State
 import os
+from components import header
+import dash_bootstrap_components as dbc
+from pages.homepage import get_homepage
 
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = Dash(__name__, external_stylesheets=external_stylesheets)
+app = Dash(__name__, external_stylesheets= ["/assets/bootstrap.css"])
 
 server = app.server
 
+
+
 app.layout = html.Div([
-    html.H1('Hello World'),
-    dcc.Dropdown(['LA', 'NYC', 'MTL'],
-        'LA',
-        id='dropdown'
-    ),
-    html.Div(id='display-value')
+    header.get_header(),
+    get_homepage(),
 ])
 
-@callback(Output('display-value', 'children'), Input('dropdown', 'value'))
-def display_value(value):
-    return f'You have selected {value}'
+header.get_callback(app)
 
 if __name__ == '__main__':
     app.run(debug=True)
