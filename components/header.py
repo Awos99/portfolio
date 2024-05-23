@@ -1,6 +1,7 @@
 import dash_bootstrap_components as dbc
 from dash import Input, Output, State, html
 from dash_bootstrap_components._components.Container import Container
+from app import app
 
 #PLOTLY_LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
 
@@ -29,10 +30,10 @@ download_cv = dbc.Button(
 
 nav = dbc.Nav(
     [
-        dbc.NavItem(dbc.NavLink("Home", href="#")),
-        dbc.NavItem(dbc.NavLink("About", href="#")),
-        dbc.NavItem(dbc.NavLink("Portfolio", href="#")),
-        dbc.NavItem(dbc.NavLink("Huck", href="#")),
+        dbc.NavItem(dbc.NavLink("Home", href="/")),
+        dbc.NavItem(dbc.NavLink("About", href="/about")),
+        dbc.NavItem(dbc.NavLink("Portfolio", href="/portfolio")),
+        dbc.NavItem(dbc.NavLink("Contact", href="/contact")),
     ],
     justified=True,
     navbar=True
@@ -66,21 +67,21 @@ navbar = dbc.Navbar(
             ),
         ]
     ),
+    fixed="top",
     #color="dark",
     #dark=True,
 )
 
-def get_callback(app):
-    # add callback for toggling the collapse on small screens
-    @app.callback(
-        Output("navbar-collapse", "is_open"),
-        [Input("navbar-toggler", "n_clicks")],
-        [State("navbar-collapse", "is_open")],
-    )
-    def toggle_navbar_collapse(n, is_open):
-        if n:
-            return not is_open
-        return is_open
+
+@app.callback(
+    Output("navbar-collapse", "is_open"),
+    [Input("navbar-toggler", "n_clicks")],
+    [State("navbar-collapse", "is_open")],
+)
+def toggle_navbar_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
 
 def get_header():
     return navbar
