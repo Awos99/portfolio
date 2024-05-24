@@ -2,6 +2,22 @@ import dash_bootstrap_components as dbc
 from dash import Input, Output, State, html
 from dash_bootstrap_components._components.Container import Container
 import pandas as pd
+import asyncio
+from calculations.readmes_repos import get_repos_5h
+import ast
+from app import app
+from threading import Thread
+
+# Run the task using the asyncio event loop
+def run_asyncio_task(task):
+    asyncio.run(task)
+
+thread = Thread(target=run_asyncio_task, args=(get_repos_5h(),))
+thread.daemon = True
+thread.start()
+
+df_repos = pd.read_csv("static/repos.csv")
+df_repos['topics'] = df_repos['topics'].apply(ast.literal_eval)
 
 friends_img = html.Img(src="../static/friends.jpg",
                         className="img-fluid rounded-4",
@@ -202,5 +218,11 @@ container = dbc.Container(
 )
 
 
+
+
 def get_portfolio_page():
     return container
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

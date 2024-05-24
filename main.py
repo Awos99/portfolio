@@ -1,5 +1,6 @@
 from app import app
 from components.header import get_header
+from components.footer import get_footer
 import dash_bootstrap_components as dbc
 from pages.homepage import get_homepage
 from pages.portfolio_page import get_portfolio_page
@@ -13,7 +14,8 @@ app.layout = html.Div([
     html.Div([
         get_homepage(),
     ],
-    id="page-content")
+    id="page-content"),
+    get_footer(),
 ],
 )
 

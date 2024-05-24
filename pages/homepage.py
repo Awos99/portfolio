@@ -2,6 +2,7 @@ import dash_bootstrap_components as dbc
 from dash import Input, Output, State, html
 from dash_bootstrap_components._components.Container import Container
 import pandas as pd
+from app import app
 
 
 profile_img = html.Img(src="../static/profile.jpg", 
@@ -114,3 +115,7 @@ container = dbc.Container(
 
 def get_homepage():
     return container
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
