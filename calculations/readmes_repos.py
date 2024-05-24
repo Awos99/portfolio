@@ -6,7 +6,7 @@ import asyncio
 from app import app
 
 try:
-    os.environ["GITHUB_KEY"] = "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"
+    os.environ["GITHUB_KEY"] = ""
 except:
     print("Please set the GITHUB_KEY environment variable.")
 
