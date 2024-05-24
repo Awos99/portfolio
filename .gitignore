@@ -161,4 +161,4 @@ cython_debug/
 
 *.pyc
 .DS_Store
-.ipynb
+github.ipynb
