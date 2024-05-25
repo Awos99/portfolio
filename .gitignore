@@ -162,3 +162,4 @@ cython_debug/
 *.pyc
 .DS_Store
 github.ipynb
+GITHUB_KEY.txt
