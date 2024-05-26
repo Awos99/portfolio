@@ -1,12 +1,353 @@
-,name,full_name,private,owner,html_url,url,description,html_url,created_at,updated_at,homepage,language,stargazers_count,watchers_count,topics,watchers,commits
-0,API-implementation,Awos99/API-implementation,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/API-implementation,https://api.github.com/repos/Awos99/API-implementation,"This repository contains an API implementation that programmatically accesses and manipulates data, providing a robust interface for integrating and extending functionality within software applications.",https://github.com/Awos99/API-implementation,2024-04-30T22:50:14Z,2024-04-30T23:30:24Z,,Jupyter Notebook,0,0,[],0,['30-04-2024']
-1,Autoencoder-python,Awos99/Autoencoder-python,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Autoencoder-python,https://api.github.com/repos/Awos99/Autoencoder-python,"Explore the `Autoencoder.ipynb` notebook that demonstrates the use of an autoencoder model to predict credit risk from financial transaction data, including detailed preprocessing, model training, and evaluation.",https://github.com/Awos99/Autoencoder-python,2024-04-28T15:51:41Z,2024-05-17T00:07:04Z,,Jupyter Notebook,1,1,[],1,['28-04-2024']
-2,Awos99.github.io,Awos99/Awos99.github.io,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Awos99.github.io,https://api.github.com/repos/Awos99/Awos99.github.io,Website,https://github.com/Awos99/Awos99.github.io,2024-04-24T11:24:05Z,2024-04-29T20:06:14Z,,HTML,0,0,[],0,"['24-04-2024', '24-04-2024', '24-04-2024', '24-04-2024', '24-04-2024', '24-04-2024']"
-3,ChatGPT-implementation,Awos99/ChatGPT-implementation,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/ChatGPT-implementation,https://api.github.com/repos/Awos99/ChatGPT-implementation,chatgpt-implementation,https://github.com/Awos99/ChatGPT-implementation,2024-04-25T09:51:06Z,2024-04-29T20:45:44Z,,Python,0,0,[],0,['25-04-2024']
-4,Create-ML-Pipeline-Graphically,Awos99/Create-ML-Pipeline-Graphically,True,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Create-ML-Pipeline-Graphically,https://api.github.com/repos/Awos99/Create-ML-Pipeline-Graphically,"This Streamlit app enables users to graphically build and customize Scikit-Learn pipelines via a drag-and-drop interface. It simplifies machine learning workflow creation, allowing users to upload data, configure pipeline steps, fit models, and export trained models, making it ideal for educational purposes.",https://github.com/Awos99/Create-ML-Pipeline-Graphically,2024-05-19T15:54:33Z,2024-05-20T16:08:33Z,https://mlcreator.streamlit.app/,Python,0,0,"['barfi', 'scikit-learn', 'streamlit']",0,"['20-05-2024', '20-05-2024', '20-05-2024', '19-05-2024', '19-05-2024', '19-05-2024']"
-5,grid-search-python,Awos99/grid-search-python,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/grid-search-python,https://api.github.com/repos/Awos99/grid-search-python,Explore the `Grid_Search_extended.ipynb` notebook for an in-depth demonstration of optimizing a decision tree classifier using grid search to assess credit risk based on customer financial data.,https://github.com/Awos99/grid-search-python,2024-04-28T15:49:51Z,2024-04-28T17:16:28Z,,Jupyter Notebook,0,0,"['sklearn', 'xgboost']",0,['28-04-2024']
-6,Linkedin-webscraping,Awos99/Linkedin-webscraping,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Linkedin-webscraping,https://api.github.com/repos/Awos99/Linkedin-webscraping,This Jupyter notebook provides a detailed tutorial on how to scrape Linkedin using Python and Selenium.,https://github.com/Awos99/Linkedin-webscraping,2024-04-30T23:03:38Z,2024-05-01T06:20:46Z,,Jupyter Notebook,1,1,[],1,['30-04-2024']
-7,Modify-df-with-Natural-Language,Awos99/Modify-df-with-Natural-Language,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Modify-df-with-Natural-Language,https://api.github.com/repos/Awos99/Modify-df-with-Natural-Language,"This Streamlit app allows users to upload, visualize, and modify CSV or Excel data using natural language commands, translated into python code by a custom agent powered by ChatGPT-4o. It showcases the potential of LLMs to transform data interaction into an intuitive and accessible process.",https://github.com/Awos99/Modify-df-with-Natural-Language,2024-05-19T14:54:56Z,2024-05-20T16:05:27Z,https://dataframe-nl.streamlit.app/,Python,0,0,"['openai', 'pandas', 'streamlit']",0,"['20-05-2024', '20-05-2024', '20-05-2024', '19-05-2024', '19-05-2024', '19-05-2024']"
-8,portfolio,Awos99/portfolio,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/portfolio,https://api.github.com/repos/Awos99/portfolio,,https://github.com/Awos99/portfolio,2024-05-22T21:24:53Z,2024-05-25T10:50:59Z,,Python,0,0,[],0,"['25-05-2024', '24-05-2024', '24-05-2024', '24-05-2024', '24-05-2024', '23-05-2024', '22-05-2024', '22-05-2024', '22-05-2024']"
-9,Query-SQL-Databases-with-Natural-Language,Awos99/Query-SQL-Databases-with-Natural-Language,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Query-SQL-Databases-with-Natural-Language,https://api.github.com/repos/Awos99/Query-SQL-Databases-with-Natural-Language,"This tool uses an SQL Agent from LangChain and ChatGPT-3.5 to translate natural language queries into SQL commands. Users can modify queries, visualize data, or export it, simplifying database interactions.",https://github.com/Awos99/Query-SQL-Databases-with-Natural-Language,2024-05-13T16:17:24Z,2024-05-20T16:02:11Z,https://sqlqueryawos.streamlit.app/,Python,0,0,"['langchain', 'openai', 'streamlit']",0,"['20-05-2024', '20-05-2024', '20-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024']"
-10,Wallapop-webscraping,Awos99/Wallapop-webscraping,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Wallapop-webscraping,https://api.github.com/repos/Awos99/Wallapop-webscraping,This Jupyter notebook provides a detailed tutorial on how to scrape product listings from Wallapop using Python and Selenium.,https://github.com/Awos99/Wallapop-webscraping,2024-04-30T23:11:29Z,2024-04-30T23:26:15Z,,Jupyter Notebook,0,0,[],0,['30-04-2024']
+,name,full_name,private,owner,html_url,url,description,html_url,created_at,updated_at,homepage,language,stargazers_count,watchers_count,topics,watchers,readme,commits
+0,API-implementation,Awos99/API-implementation,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/API-implementation,https://api.github.com/repos/Awos99/API-implementation,"This repository contains an API implementation that programmatically accesses and manipulates data, providing a robust interface for integrating and extending functionality within software applications.",https://github.com/Awos99/API-implementation,2024-04-30T22:50:14Z,2024-04-30T23:30:24Z,,Jupyter Notebook,0,0,[],0,"### Documentation API
+
+
+**Introduction**
+
+This API provides authentication and access to character data, allowing users to perform various operations related to characters. Users can log in, retrieve character information, add new characters, update character data, and delete characters.
+
+**Authentication**
+
+Authentication is required to access certain endpoints of the API. It uses JSON Web Tokens (JWT) for user authentication. To authenticate, users must obtain an access token by providing a valid email and password through the **/login** endpoint. The access token is then included in the headers of subsequent requests to authenticate the user. The token is valid for 1 hour.
+
+Main URL: http://127.0.0.1:5000
+
+**Endpoints**
+1. **Login**
+
+  Send a GET request to login to the API and receive an access token that will be necessary for future requests.
+
+
+*   **URL**: /login
+*   **Method**: GET
+
+*   **JSON Request Body**:
+  *   **´email´** (string, required): The user's email address.
+  *   **´password´** (string, required): The user's password.
+*   **Response:**
+  *   **´status´** (integer): The HTTP status code.
+  *   **´response´** (string): A response message.
+  *   **´access_token´** (string): An access token for authenticating subsequent requests.
+* **Errors:**
+  * **´401´** :
+    * **'Unauthorized - Invalid password'**: The password entered is not correct.
+    * **'Unauthorized - Invalid email'**: The email entered is not correct or it is empty.
+
+2. **Characters**
+
+  Endpoint used to interact with the database.
+
+- **URL**: /characters
+- **Methods**: GET, POST, PUT, DELETE
+- **Authentication**: Required (access_token)
+- **Errors：**
+  - **405**: Token has expired.
+  - **406**: Failed to decode token (Invalid signature or token）entered.
+  - **407**: Failed to test validity of token.
+
+**GET**
+
+Retrieve data from the API's dataset.
+
+- **´Method´**: **´GET´**
+- **Query Parameters**:
+  - **´access_token´** (string, required): The access token obtained during login.
+  - **´Character IDs´** (string, optional if Character Names are provided): Comma-separated list of character IDs to filter by.
+  - **´Character Names´** (string, optional if Character IDs are provided): Comma-separated list of character names to filter by.
+
+  Send either 'Character IDs' or 'Character Names' in the request, but not both. If neither is sent then the entire dataset will be in the response.
+- **´Response´**:
+  - **´status´** (integer): The HTTP status code.
+  - **´response´** (list): A list of character data.
+    - Each character entry includes the following fields:
+      - **´Character ID´** (integer): The unique identifier of the character.
+      - **´Character Name´** (string): The name of the character.
+      - **´Total Available Events´** (integer): The total number of events associated with the character.
+      - **´Total Available Series´** (integer): The total number of series associated with the character.
+      - **´Total Available Comics´** (integer): The total number of comics associated with the character.
+      - **´Price of the Most Expensive Comic´** (float): The price of the most expensive comic associated with the character.
+- **Errors:**
+  - **407**: Provide either the Character Names or IDs, but not both.
+  - **400**: Failed to convert Character IDs or Names.
+  - **404**: No characters found for the provided Names or IDs.
+  - **408**: User is not authorized to use this method.
+
+**POST**
+
+Add new data to the API's dataset.
+
+- **Method**: **´POST´**
+- **JSON Request Body**:
+  - **´access_token´** (string, required): The access token obtained during login.
+  - **´Character ID´** (integer, required): The unique identifier of the character.
+  - **´Character Name´** (string, optional): The name of the character.
+  - **´Total Available Events**´ (integer, optional): The total number of events associated with the character.
+  - **´Total Available Series´** (integer, optional): The total number of series associated with the character.
+  - **´Total Available Comics´** (integer, optional): The total number of comics associated with the character.
+  - **´Price of the Most Expensive Comic´** (float, optional): The price of the most expensive comic associated with the character.
+
+  If in the request only 'Character ID' and 'access_token' are sent, then the API will look for the character data automatically in the Marvel API.
+- **Response**:
+  - **´status´** (integer): The HTTP status code.
+  - **´response´** (object): The added character data.
+- **Errors:**
+  - **400**: ID already exists.
+  - **412**: All fields are mandatory if it is not to be filled automatically.
+  - **408**: User is not authorized to use this method.
+  - **404**: Character was not found in the Marvel API.
+
+
+**PUT**
+
+Modify data in the API's dataset.
+
+- **Method**: **´PUT´**
+- **JSON Request Body**:
+  - **´access_token´** (string, required): The access token obtained during login.
+  - **´Character ID´** (integer, required): The unique identifier of the character to update.
+  - **´Character Name´** (string, optional): The updated name of the character.
+  - **´Total Available Events´** (integer, optional): The updated total number of events associated with the character.
+  - **´Total Available Series´** (integer, optional): The updated total number of series associated with the character.
+  - **´Total Available Comics´** (integer, optional): The updated total number of comics associated with the character.
+  - **´Price of the Most Expensive Comic´** (float, optional): The updated price of the most expensive comic associated with the character.
+  - **´Currency´** (string, optional): The currency of the price (e.g., USD, EUR, GBP, CAD) for real-time currency conversion. USD as the default.
+- **Response:**
+  - **´status´** (integer): The HTTP status code.
+  - **´response´** (object): The updated character data.
+- **Errors:**
+  - **404**: Character not found.
+  - **412**: Currency not supported.
+  - **410**: No attributes given to update data.
+  - **408**: User is not authorized to use this method.
+
+**DELETE**
+
+Delete data from the API's dataset.
+
+- **Method**: **´DELETE´**
+- **JSON Request Body**:
+  - **´access_token´** (string, required): The access token obtained during login.
+  - **´Character IDs´** (string, optional): Comma-separated list of character IDs to delete.
+  - **´Character Names´** (string, optional): Comma-separated list of character Names to delete.
+- **Response**:
+  - **´status´** (integer): The HTTP status code.
+  - **´response´** (list): A list of character data after deletion (excluding the deleted character).
+- **Errors:**
+  - **404**: Character not found.
+  - **408**: User is not authorized to use this method.
+  - **407**: Provide either the Character Names or IDs, but not both.
+  - **400**: Failed to convert either Character IDs or Names.
+  - **401**: Character IDs or Character Names missing.
+
+",['30-04-2024']
+1,Autoencoder-python,Awos99/Autoencoder-python,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Autoencoder-python,https://api.github.com/repos/Awos99/Autoencoder-python,"Explore the `Autoencoder.ipynb` notebook that demonstrates the use of an autoencoder model to predict credit risk from financial transaction data, including detailed preprocessing, model training, and evaluation.",https://github.com/Awos99/Autoencoder-python,2024-04-28T15:51:41Z,2024-05-17T00:07:04Z,,Jupyter Notebook,1,1,[],1,"# Autoencoder for Credit Risk Assessment
+
+This repository contains a Jupyter notebook titled `Autoencoder.ipynb` dedicated to implementing an autoencoder model for credit risk assessment using customer financial data. The notebook is structured to provide a comprehensive guide on data handling, feature engineering, and model training with detailed explanations and Python code.
+
+## Key Features:
+- **Dataset Overview**: Includes financial transaction data and customer profiles with features like income, savings, debt levels, and categorical variables for personal attributes.
+- **Preprocessing Steps**: Data cleaning, handling missing values, and feature normalization using pipelines for numerical and categorical data.
+- **Model Implementation**: Uses an autoencoder model, ideal for dimensionality reduction and anomaly detection in dense datasets.
+- **Model Training and Validation**: Detailed steps on training the model with a train-test split, hyperparameter tuning using grid search, and model evaluation.
+
+This project aims to utilize deep learning techniques to predict credit risk and default probability, providing insights that can help in making informed financial decisions.
+",['28-04-2024']
+2,Awos99.github.io,Awos99/Awos99.github.io,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Awos99.github.io,https://api.github.com/repos/Awos99/Awos99.github.io,Website,https://github.com/Awos99/Awos99.github.io,2024-04-24T11:24:05Z,2024-04-29T20:06:14Z,,HTML,0,0,[],0,"# Personal Portfolio Website of Amos Wolf
+
+Welcome to the repository for my personal portfolio website. This site showcases my professional background, key skills, education, work experiences, and personal interests.
+
+## Features
+
+- **Responsive Navigation Bar**: Easily navigate through various sections of the website.
+- **Hero Section**: Introduction to my professional persona with quick links to download my CV and contact me directly.
+- **Dynamic Content Sections**: Includes detailed descriptions of my work experience, education, skills, and languages.
+- **Fun Facts**: Personal insights to add a more human touch to the digital profile.
+- **Downloadable CV**: Users can download my CV directly from multiple sections on the site.
+
+## File Structure
+
+- **HTML**: The main structure is defined in an HTML file that includes all content and layout definitions.
+- **CSS**: Styling for the site is handled in `css/style.css`, providing custom styles for various components.
+- **JavaScript**: Interaction scripts are located in `js/main.js`.
+- **Images**: All personal images and icons are stored within the `images/` folder.
+- **Documents**: CV and other downloadable documents are placed in the `docs/` directory.
+
+## Sections
+
+1. **Hero Section**: A brief introduction and quick links for downloading the CV and initiating contact.
+2. **Fun Facts**: Light-hearted and personal trivia to give a glimpse into my personality.
+3. **Work Experience**: Detailed descriptions of my professional engagements and accomplishments.
+4. **Education**: Chronological details of my academic credentials.
+5. **Skills**: Highlight of professional skills acquired over the years.
+6. **Languages**: A showcase of language proficiencies.
+","['24-04-2024', '24-04-2024', '24-04-2024', '24-04-2024', '24-04-2024', '24-04-2024']"
+3,ChatGPT-implementation,Awos99/ChatGPT-implementation,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/ChatGPT-implementation,https://api.github.com/repos/Awos99/ChatGPT-implementation,chatgpt-implementation,https://github.com/Awos99/ChatGPT-implementation,2024-04-25T09:51:06Z,2024-04-29T20:45:44Z,,Python,0,0,[],0,"# Python Application for Text Processing and GUI Interactions
+
+This Python application offers various text processing functionalities integrated with OpenAI's language models, alongside GUI-based interactions and system tray integration for Windows. It uses `win32gui` to handle system tasks and `tkinter` for the user interface, making it a versatile tool for desktop environments.
+
+## Features
+
+- **Text Rewriting and Correction**: Utilizes OpenAI's language models to rewrite and correct text copied to the clipboard.
+- **Text Summarization and Question Answering**: Provides quick summarization and question answering functionalities.
+- **System Tray Integration**: Runs in the background with an icon in the system tray for easy access.
+- **Hotkeys Support**: Use predefined hotkeys to trigger text processing actions.
+- **GUI for Interaction**: Simple GUI for entering text and interacting with the system directly.
+- **Notifications**: System notifications to indicate processing and updates.
+
+## Prerequisites
+
+- Windows OS
+- Python 3.8 or above
+- Access to OpenAI API (API key required)
+",['25-04-2024']
+4,Create-ML-Pipeline-Graphically,Awos99/Create-ML-Pipeline-Graphically,True,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Create-ML-Pipeline-Graphically,https://api.github.com/repos/Awos99/Create-ML-Pipeline-Graphically,"This Streamlit app enables users to graphically build and customize Scikit-Learn pipelines via a drag-and-drop interface. It simplifies machine learning workflow creation, allowing users to upload data, configure pipeline steps, fit models, and export trained models, making it ideal for educational purposes.",https://github.com/Awos99/Create-ML-Pipeline-Graphically,2024-05-19T15:54:33Z,2024-05-20T16:08:33Z,https://mlcreator.streamlit.app/,Python,0,0,"['barfi', 'scikit-learn', 'streamlit']",0,"# Streamlit Scikit-Learn Pipeline Builder
+
+![Demo GIF](/static/demo.gif)
+
+## Overview
+This repository contains a Streamlit application that provides a graphical interface for building and customizing Scikit-Learn pipelines. Designed as a learning tool, it bridges the gap between complex coding requirements and fully automated systems, offering a hands-on approach to understanding machine learning workflows.
+
+## How It Works
+The application allows users to construct a machine learning pipeline using a user-friendly drag-and-drop interface:
+
+1. **Data Upload**: Users start by uploading a CSV file.
+2. **Column Selection**: Users specify which columns to use as predictors and which as the target.
+3. **Pipeline Construction**:
+   - A graphical interface displays the available steps of a machine learning pipeline.
+   - Users drag and drop different pipeline blocks into place to construct their workflow.
+4. **Execution and Customization**:
+   - Clicking 'Execute' initializes the customization phase where users can configure the settings of individual blocks, especially the Column Transformers.
+5. **Model Training**:
+   - After customization, users can 'Fit' their model to the data, evaluate its performance, and see the test error.
+6. **Model Export**:
+   - The trained model can be downloaded as a `.joblib` file.
+
+## Development Notes
+- **Error Handling**: Minimal error handling is currently implemented.
+- **Unique Naming**: Each pipeline block must have a unique name to avoid conflicts.
+
+## Challenges
+- **Code Generation**: Converting the visual pipeline representation into executable code was challenging and required developing a complex recursive algorithm.
+- **UI Personalization**: Enhancing the customization options for blocks to improve user interface flexibility remains a challenge.
+
+## Potential with LLMs
+While currently not implemented, integrating Large Language Models (LLMs) could further enhance this application by guiding users in the development of the pipeline.
+
+
+
+Please, try the app here:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mlcreator.streamlit.app/)
+
+
+
+","['20-05-2024', '20-05-2024', '20-05-2024', '19-05-2024', '19-05-2024', '19-05-2024']"
+5,grid-search-python,Awos99/grid-search-python,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/grid-search-python,https://api.github.com/repos/Awos99/grid-search-python,Explore the `Grid_Search_extended.ipynb` notebook for an in-depth demonstration of optimizing a decision tree classifier using grid search to assess credit risk based on customer financial data.,https://github.com/Awos99/grid-search-python,2024-04-28T15:49:51Z,2024-04-28T17:16:28Z,,Jupyter Notebook,0,0,"['sklearn', 'xgboost']",0,"# Advanced Grid Search Techniques in Python for Credit Scoring Models
+
+## Overview
+This repository contains a Jupyter notebook titled `Grid_Search_extended.ipynb` that provides an in-depth look at using advanced grid search techniques to optimize a decision tree classifier for credit risk assessment based on comprehensive customer data. The focus is on enhancing model accuracy by exploring various hyperparameters through systematic testing.
+
+## Key Features
+- **Detailed Dataset Description**: Utilizes a rich dataset containing financial information of 1000 customers, spanning 84 features related to their financial behavior and status, aimed at predicting credit risk and potential defaults.
+- **Preprocessing Pipeline**: Implements a sophisticated data preprocessing pipeline using `scikit-learn` that includes imputation, scaling, and encoding steps tailored for both numerical and categorical data.
+- **Decision Tree Optimization**: Employs `GridSearchCV` to perform an exhaustive search over specified parameter values for a decision tree model. Parameters like criterion, max depth, and min samples split are adjusted to find the optimal model configuration.
+- **Cross-Validation Strategy**: Uses cross-validation to ensure the model's robustness, minimizing the potential overfitting and providing a reliable assessment of its performance.
+
+## Goals of This Project
+The project aims to demonstrate the power of grid search in machine learning workflows, specifically for the purpose of credit scoring, which can help financial institutions assess the risk levels of potential clients more effectively.
+",['28-04-2024']
+6,Linkedin-webscraping,Awos99/Linkedin-webscraping,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Linkedin-webscraping,https://api.github.com/repos/Awos99/Linkedin-webscraping,This Jupyter notebook provides a detailed tutorial on how to scrape Linkedin using Python and Selenium.,https://github.com/Awos99/Linkedin-webscraping,2024-04-30T23:03:38Z,2024-05-01T06:20:46Z,,Jupyter Notebook,1,1,[],1,"# LinkedIn Web Scraping Notebook
+
+This repository contains a Jupyter notebook (`Linkedin Webscraping.ipynb`) that provides a comprehensive guide to scraping LinkedIn profiles using Python. The notebook is designed for educational purposes to demonstrate how to legally and ethically extract professional data from LinkedIn.
+
+## Overview
+
+The `Linkedin Webscraping.ipynb` notebook outlines methods for connecting to LinkedIn, navigating through user profiles, and extracting relevant data points without violating LinkedIn's terms of service. The primary focus is on using Python libraries to automate the collection of publicly available information which can be used for academic research, market analysis, or professional networking enhancements.
+
+## Features
+
+- **Connection Setup**: How to set up a connection to LinkedIn using session handling in `requests` or `selenium` for managing login sessions.
+- **Profile Navigation**: Demonstrates the steps to navigate from a LinkedIn user's initial profile page to other sections like experience, education, and skills using DOM parsing.
+- **Data Extraction**: Detailed code examples for extracting specific data like names, job titles, educational backgrounds, skills, endorsements, and more.
+- **Data Storage**: Guidelines on storing scraped data in a structured format such as CSV or a SQL database, ensuring data integrity and ease of access.
+- **Ethical Considerations**: Discussion on the ethical implications of web scraping and how to ensure your scraping activities comply with legal standards and LinkedIn's robots.txt and terms of service.
+",['30-04-2024']
+7,Modify-df-with-Natural-Language,Awos99/Modify-df-with-Natural-Language,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Modify-df-with-Natural-Language,https://api.github.com/repos/Awos99/Modify-df-with-Natural-Language,"This Streamlit app allows users to upload, visualize, and modify CSV or Excel data using natural language commands, translated into python code by a custom agent powered by ChatGPT-4o. It showcases the potential of LLMs to transform data interaction into an intuitive and accessible process.",https://github.com/Awos99/Modify-df-with-Natural-Language,2024-05-19T14:54:56Z,2024-05-20T16:05:27Z,https://dataframe-nl.streamlit.app/,Python,0,0,"['openai', 'pandas', 'streamlit']",0,"# Streamlit Dataframe Manipulation App with Natural Language
+
+![Demo GIF](/static/demo.gif)
+
+## Overview
+This repository contains a Streamlit application that simplifies data visualization and manipulation using natural language. Users can upload CSV or Excel files, visualize and interact with the data, and modify it using commands in natural language, powered by a custom agent using ChatGPT-4o.
+
+## How It Works
+The application workflow is designed for ease of use and interactive data manipulation:
+
+1. **File Upload**: Users can upload a CSV or Excel file which is then read into a DataFrame.
+2. **Data Visualization**: The uploaded data is displayed, allowing users to visually inspect and interact with their dataset.
+3. **Row Deletion**: Users can delete rows directly from the visualization interface. Note: Due to a current Streamlit widget bug, rows must be deleted twice.
+4. **Column Removal**: Users have the option to drop columns from the DataFrame as needed.
+5. **Natural Language Queries**: Users can specify queries or commands in natural language to modify the data.
+6. **Query Processing and Execution**:
+   - Queries are processed by a custom agent equipped with ChatGPT-4o, using the first 5 rows of the DataFrame to generate Python code within a `modify_df` function.
+   - This code is executed to apply the specified modifications and return an updated DataFrame.
+
+## Enhanced Capabilities with LLMs
+Integrating advanced LLMs like ChatGPT-4o into this application unlocks significant potential for natural language processing in data manipulation. This allows users to interact with data in a more intuitive and accessible manner, reducing the need for technical expertise in data analysis or programming.
+
+## Challenges and Development
+The main challenge in this project has been creating robust prompts that consistently return executable Python code. Currently, as this is a prototype designed to showcase the capabilities of LLMs in streamlining data operations, error handling has not yet been implemented. This presents an ongoing area for development to enhance the application's reliability and user experience.
+
+Please try the app here:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dataframe-nl.streamlit.app/)
+","['20-05-2024', '20-05-2024', '20-05-2024', '19-05-2024', '19-05-2024', '19-05-2024']"
+8,portfolio,Awos99/portfolio,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/portfolio,https://api.github.com/repos/Awos99/portfolio,,https://github.com/Awos99/portfolio,2024-05-22T21:24:53Z,2024-05-25T17:20:00Z,,Python,0,0,[],0,# portfolio,"['25-05-2024', '25-05-2024', '24-05-2024', '24-05-2024', '24-05-2024', '24-05-2024', '23-05-2024', '22-05-2024', '22-05-2024', '22-05-2024']"
+9,Query-SQL-Databases-with-Natural-Language,Awos99/Query-SQL-Databases-with-Natural-Language,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Query-SQL-Databases-with-Natural-Language,https://api.github.com/repos/Awos99/Query-SQL-Databases-with-Natural-Language,"This tool uses an SQL Agent from LangChain and ChatGPT-3.5 to translate natural language queries into SQL commands. Users can modify queries, visualize data, or export it, simplifying database interactions.",https://github.com/Awos99/Query-SQL-Databases-with-Natural-Language,2024-05-13T16:17:24Z,2024-05-20T16:02:11Z,https://sqlqueryawos.streamlit.app/,Python,0,0,"['langchain', 'openai', 'streamlit']",0,"# Query SQL Databases with Natural Language
+
+![Demo GIF](/static/demo.gif)
+
+## Overview
+This repository hosts the prototype of an innovative tool designed to leverage the capabilities of an *SQL Agent* from LangChain to facilitate querying databases using natural language. This project harnesses the power of large language models (LLMs) to interpret and translate user queries into executable SQL commands.
+
+## How It Works
+The application workflow is intuitive and efficient, making it accessible for users without deep technical expertise in SQL:
+
+1. **User Input**: The user poses a question to the application.
+2. **Description Generation**: A descriptive message about the database is generated by providing an LLM (specifically ChatGPT-3.5) with the first three rows from all tables within the database.
+3. **Query Generation and Execution**:
+   - The SQL Agent crafts an SQL query based on the input.
+   - This query is retrieved via a callback handler and executed against the database to fetch the necessary information.
+4. **Response Generation**: The application uses the retrieved data and the original user question to generate a comprehensive answer.
+5. **Query Modification**: Users have the flexibility to modify the auto-generated SQL query and rerun it, allowing for customization and refinement of results.
+6. **Data Visualization and Export**: The retrieved data can be visualized through bar, line, or scatter plots, or downloaded as a CSV file for further analysis.
+
+## Enhanced Capabilities with LLMs
+Integrating LLMs like ChatGPT-3.5 significantly enhances the application's functionality. These models bring a deep understanding of natural language, enabling the system to handle a wide range of queries and generate precise SQL commands. This integration points to a future where natural language can serve as a powerful interface for complex database interactions, making data more accessible to non-specialist users.
+
+## Challenges Encountered
+The development of this application presented several unique challenges:
+- **SQL Query Retrieval**: Extracting the dynamically generated SQL query from the SQL Agent was particularly challenging, given that the agent's definitions are managed externally by the LangChain library.
+- **Widget Management**: The sequential loading behavior of widgets in Streamlit necessitated careful planning of the user interface layout to ensure a logical and user-friendly order of operations.
+
+
+
+Please, try the app here:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sqlqueryawos.streamlit.app)
+","['20-05-2024', '20-05-2024', '20-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024']"
+10,Wallapop-webscraping,Awos99/Wallapop-webscraping,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Wallapop-webscraping,https://api.github.com/repos/Awos99/Wallapop-webscraping,This Jupyter notebook provides a detailed tutorial on how to scrape product listings from Wallapop using Python and Selenium.,https://github.com/Awos99/Wallapop-webscraping,2024-04-30T23:11:29Z,2024-04-30T23:26:15Z,,Jupyter Notebook,0,0,[],0,"# Wallapop Web Scraping Notebook
+
+This repository contains a Jupyter notebook titled `Wallapop Webscraping.ipynb`, which demonstrates the process of scraping data from Wallapop. Wallapop is a popular online marketplace for buying and selling second-hand goods. This notebook aims to educate users on how to extract product listings and associated data using automated web scraping techniques.
+
+## Overview
+
+The `Wallapop Webscraping.ipynb` notebook provides a practical guide to scraping Wallapop's website. It focuses on extracting data such as product names, prices, descriptions, and seller information, which can be useful for market analysis, price monitoring, or academic research.
+
+## Features
+
+- **Automated Browsing**: Demonstrates how to automate navigation through Wallapop’s product listings using the `selenium` library.
+- **Data Extraction**: Detailed examples of how to extract key pieces of information from product pages.
+- **Handling Pagination**: Instructions on managing pagination to scrape multiple pages of listings.
+- **Data Cleaning and Storage**: Tips on cleaning the scraped data and storing it in a structured format such as CSV for easy analysis and retrieval.
+- **Ethical Guidelines**: Discussion on ethical web scraping practices and compliance with Wallapop's terms of service to ensure responsible use of web scraping technologies.
+",['30-04-2024']

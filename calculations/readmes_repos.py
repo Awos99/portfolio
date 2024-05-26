@@ -50,7 +50,7 @@ def get_repos(username="Awos99"):
     df_repos = pd.DataFrame(response.json())
     df_repos_filtered = df_repos[df_repos["owner"].apply(lambda x: x["login"] == "Awos99")]
     columns_selected = ["name", "full_name", "private", "owner", "html_url", "url", "description", "html_url", "created_at", "updated_at", "homepage", "language", "stargazers_count", "watchers_count", "topics", "watchers"]
-    df_repos = get_all_readmes(df_repos_filtered)[columns_selected]
+    df_repos = get_all_readmes(df_repos_filtered[columns_selected])
     df_repos["commits"] = df_repos["name"].apply(get_number_of_commits)
     return df_repos
 

@@ -165,7 +165,7 @@ def heatmap_github(df_repos):
         shapes=shapes,
         plot_bgcolor='white',  # Set the background color to white
         paper_bgcolor='white',  # Set the paper background color to white
-        margin=dict(t=0, b=0, l=0, r=0),
+        margin=dict(t=20, b=0, l=0, r=0),
         xaxis=dict(tickmode='array',
                 tickvals=first_occurrences,
                 ticktext=[month_year_labels[i].split(' ')[0] for i in first_occurrences],
@@ -200,13 +200,14 @@ def languages_github(df_repos):
 
     })
 
+    
     # Create histogram
     figure = go.Figure(data=[
         go.Bar(name='Repos per language', 
             y=sorted_languages.index, 
             x=sorted_languages.values, 
             orientation='h',
-            width=0.1,
+            width=0.2,
             marker=dict(
                 color=colors,
                 line=dict(width=0)
@@ -231,5 +232,6 @@ def languages_github(df_repos):
                                     automargin=True,
                                     title_standoff=20,),
                         width=800,
+                        margin=dict(t=10, b=0, l=0, r=0),
                                     )
     return figure
