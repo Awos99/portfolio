@@ -13,7 +13,7 @@ except:
 
 
 headers = {
-    "Authorization": "Bearer " + os.environ["GITHUB_KEY"],
+    "Authorization": 'Bearer' + os.environ["GITHUB_KEY"],
 }
 
 def get_readme(url):
@@ -54,12 +54,18 @@ def get_repos(username="Awos99"):
     df_repos["commits"] = df_repos["name"].apply(get_number_of_commits)
     return df_repos
 
-
+def get_number_followers(url):
+    response = requests.get(url, headers=headers)
+    data = response.json()
+    return len(data)
 
 async def get_repos_5h():
     while True:
         # Your code here
-        get_repos().to_csv("static/repos.csv")
+        try:
+            get_repos().to_csv("static/repos.csv")
+        except:
+            print("Failed to fetch data")
         await asyncio.sleep(5 * 60 * 60)  # Sleep for 5 hours
 
 if __name__ == '__main__':
