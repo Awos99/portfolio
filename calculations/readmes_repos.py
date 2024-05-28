@@ -13,8 +13,10 @@ except:
 
 
 headers = {
-    "Authorization": 'Bearer' + os.environ["GITHUB_KEY"],
+    "Authorization": 'Bearer ' + os.environ["GITHUB_KEY"],
 }
+
+
 
 def get_readme(url):
     url = f"{url}/readme"
@@ -64,8 +66,8 @@ async def get_repos_5h():
         # Your code here
         try:
             get_repos().to_csv("static/repos.csv")
-        except:
-            print("Failed to fetch data")
+        except Exception as e:
+            print("Failed to fetch data", e)
         await asyncio.sleep(5 * 60 * 60)  # Sleep for 5 hours
 
 if __name__ == '__main__':

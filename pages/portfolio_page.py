@@ -8,7 +8,7 @@ import ast
 from app import app
 from threading import Thread
 from components.github_graphs import heatmap_github, languages_github
-import requests
+import os
 
 
 
@@ -86,7 +86,7 @@ graphs = dbc.Container(
 def repository_card(src, title, text, readme=None, url_github=None):
     flag_img=0
     if 'GIF' in readme:
-        src = f'https://raw.githubusercontent.com/Awos99/{title}/main/static/demo.gif?token=GHSAT0AAAAAACQPEY4CJW2MT67CGPPLYAFYZSTO5PA'
+        src = f'https://raw.githubusercontent.com/Awos99/{title}/main/static/demo.gif?token='
         flag_img=1
         readme=readme.replace('![Demo GIF](/static/demo.gif)', '')
         
