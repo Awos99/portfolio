@@ -68,6 +68,10 @@ navbar = dbc.Navbar(
         ]
     ),
     fixed="top",
+    style={
+        "backgroundColor": 'rgb(245, 244, 242)',
+        'border': '1px solid rgb(215, 207, 193)',
+    }
     #color="dark",
     #dark=True,
 )

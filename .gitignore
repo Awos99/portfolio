@@ -163,3 +163,4 @@ cython_debug/
 .DS_Store
 github.ipynb
 GITHUB_KEY.txt
+COHERE_KEY.txt

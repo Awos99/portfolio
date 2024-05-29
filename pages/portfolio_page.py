@@ -4,6 +4,7 @@ from dash_bootstrap_components._components.Container import Container
 import pandas as pd
 import asyncio
 from calculations.readmes_repos import get_repos_5h, get_number_followers
+from calculations.cohere_search import search_repositories
 import ast
 from app import app
 from threading import Thread
@@ -67,7 +68,7 @@ graphs = dbc.Container(
                                     
                                 ),
                             ],
-                            className="rounded border p-1 border-1 ",
+                            className="rounded-4 border p-1 border-1 ",
                             style={'background-color': 'white'}
                             
                         ),
@@ -76,10 +77,10 @@ graphs = dbc.Container(
                 ),
             ],
             align="center",
-            className="mt-5 align-items-center justify-content-center",
+            className="mt-2 align-items-center justify-content-center",
         ),
     ],
-    className="mt-5 align-items-center justify-content-center",
+    className="mt-0 align-items-center justify-content-center",
     
 )
 
@@ -124,15 +125,20 @@ def repository_card(src, title, text, readme=None, url_github=None):
     )
 
 
-    @app.callback(
-        Output("modal"+title.replace('.', '').replace('{', ''), "is_open"),
-        [Input("open" + title.replace('.', '').replace('{', ''), "n_clicks"), Input("close" + title.replace('.', '').replace('{', ''), "n_clicks")],
-        [State("modal"+title.replace('.', '').replace('{', ''), "is_open")],
-    )
-    def toggle_modal(n1, n2, is_open):
-        if n1 or n2:
-            return not is_open
-        return is_open
+    modal_id = "modal" + title.replace('.', '').replace('{', '')
+    open_id = "open" + title.replace('.', '').replace('{', '')
+    close_id = "close" + title.replace('.', '').replace('{', '')
+
+    if modal_id not in app.callback_map:
+        @app.callback(
+            Output(modal_id, "is_open"),
+            [Input(open_id, "n_clicks"), Input(close_id, "n_clicks")],
+            [State(modal_id, "is_open")],
+        )
+        def toggle_modal(n1, n2, is_open):
+            if n1 or n2:
+                return not is_open
+            return is_open
     
     card_img=dbc.CardImg(src=src, 
                         top=True,
@@ -164,9 +170,11 @@ def repository_card(src, title, text, readme=None, url_github=None):
                 ]
             ),
         ],
-        className="card my-3",
+        className="card my-3 rounded-4",
         style={"width": "18rem",
-                "backgroundColor": "transparent"},
+                "backgroundColor": "rgb(245, 244, 242)",
+                'border': '1px solid rgb(215, 207, 193)',
+                },
     )
 
 def repositories_matrix(df_interests):
@@ -188,6 +196,34 @@ def repositories_matrix(df_interests):
 
     return matrix
 
+search_bar = dbc.Row(
+    [
+        dbc.Col(dbc.Input(id="search-input", 
+                          type="search", 
+                          placeholder="Search",
+                          className="rounded-4")),
+        dbc.Col(
+            dbc.Button(
+                "Search", id="search-button", color="primary", className="ms-2", n_clicks=0
+            ),
+            width="auto",
+        ),
+    ],
+    className="g-0 ms-auto flex-nowrap pt-3",
+    align="center",
+)
+
+@app.callback(
+    Output('search-results', 'children'),
+    [Input('search-button', 'n_clicks')],
+    [State('search-input', 'value')]
+)
+def rank_repos(n, search_value):
+    if n:
+        if search_value:
+            return repositories_matrix(df_repos.iloc[search_repositories(search_value, df_repos['description'].fillna('').tolist(), 5)])
+    return repositories_matrix(df_repos)
+
 github_img_graphs = html.Div(
     [
         dbc.Row(
@@ -203,10 +239,11 @@ github_img_graphs = html.Div(
                     ],
                     width=3,
                 ),
-                dbc.Col([graphs]+
-                    
-                        repositories_matrix(df_repos),
-                
+                dbc.Col([
+                    graphs, 
+                    search_bar, 
+                    html.Div([], id='search-results')
+                ],
                     width=9,
                     align='center',
                     className='justify-content-center align-items-center',
@@ -216,6 +253,8 @@ github_img_graphs = html.Div(
         ),
     ],
 )
+
+
 
 jumbotron = html.Div(
     dbc.Container(
@@ -231,21 +270,17 @@ jumbotron = html.Div(
         className="py-3",
     ),
     className="p-3 rounded-3 my-3",
-    style={'background-color': 'white'}
 )
+
 
 
 container = dbc.Container(
     [
-        html.Div(
-            [
-            
-        ],
-        style={'height': '10px'}
-        ),
+        
         jumbotron,
     ],
     className="mt-5",
+    
 )
 
 
