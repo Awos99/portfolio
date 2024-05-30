@@ -100,21 +100,25 @@ def repository_card(src, title, text, readme=None, url_github=None):
         inside_modal=[dcc.Markdown(readme), card_img]
     else:
         inside_modal=[dcc.Markdown(readme)]
+
+    modal_id = "modal" + title.replace('.', '').replace('{', '')
+    open_id = "open" + title.replace('.', '').replace('{', '')
+    close_id = "close" + title.replace('.', '').replace('{', '')
     
     modal = html.Div(
         [
-            dbc.Button("More...", id="open" + title.replace('.', '').replace('{', ''), n_clicks=0),
+            dbc.Button("More...", id=open_id, n_clicks=0),
             dbc.Modal(
                 [
                     dbc.ModalHeader(dbc.ModalTitle(title)),
                     dbc.ModalBody(inside_modal),
                     dbc.ModalFooter(
                         dbc.Button(
-                            "Close", id="close"+title.replace('.', '').replace('{', ''), className="ms-auto", n_clicks=0
+                            "Close", id=close_id, className="ms-auto", n_clicks=0
                         )
                     ),
                 ],
-                id="modal" + title.replace('.', '').replace('{', ''),
+                id=modal_id,
                 size="lg",
                 is_open=False,
                 
@@ -122,14 +126,11 @@ def repository_card(src, title, text, readme=None, url_github=None):
             ),
         ],
         style={'text-align': 'right'}
+
     )
-
-
-    modal_id = "modal" + title.replace('.', '').replace('{', '')
-    open_id = "open" + title.replace('.', '').replace('{', '')
-    close_id = "close" + title.replace('.', '').replace('{', '')
-
-    if modal_id not in app.callback_map:
+    
+    if modal_id+'.is_open' not in app.callback_map:
+        
         @app.callback(
             Output(modal_id, "is_open"),
             [Input(open_id, "n_clicks"), Input(close_id, "n_clicks")],
@@ -212,17 +213,17 @@ search_bar = dbc.Row(
     className="g-0 ms-auto flex-nowrap pt-3",
     align="center",
 )
-
-@app.callback(
-    Output('search-results', 'children'),
-    [Input('search-button', 'n_clicks')],
-    [State('search-input', 'value')]
-)
-def rank_repos(n, search_value):
-    if n:
-        if search_value:
-            return repositories_matrix(df_repos.iloc[search_repositories(search_value, df_repos['description'].fillna('').tolist(), 5)])
-    return repositories_matrix(df_repos)
+if 'search-results' not in app.callback_map:
+    @app.callback(
+        Output('search-results', 'children'),
+        [Input('search-button', 'n_clicks')],
+        [State('search-input', 'value')]
+    )
+    def rank_repos(n, search_value):
+        if n:
+            if search_value:
+                return repositories_matrix(df_repos.iloc[search_repositories(search_value, df_repos['description'].fillna('').tolist(), 5)])
+        return repositories_matrix(df_repos)
 
 github_img_graphs = html.Div(
     [
