@@ -3235,12 +3235,12 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #4582ec;
-    --bs-btn-border-color: #4582ec;
+    --bs-btn-color: #151412;
+    --bs-btn-bg: rgb(215, 207, 193);
+    --bs-btn-border-color: "transparent";
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #3b6fc9;
-    --bs-btn-hover-border-color: #3768bd;
+    --bs-btn-hover-bg: rgb(57 89 77);
+    --bs-btn-hover-border-color: "transparent";
     --bs-btn-focus-shadow-rgb: 97, 149, 239;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #3768bd;

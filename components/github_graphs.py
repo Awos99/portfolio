@@ -57,7 +57,7 @@ def heatmap_github(df_repos):
     hover_data_pivot = hover_data_pivot[heatmap_data_agg['year_week'].unique()]
 
     custom_colorscale = [
-        [0, 'lightgray'],  # Light color
+        [0, 'whitesmoke'],  # Light color
         [0.001, 'white'],
         [1, 'green']   # Dark color
     ]

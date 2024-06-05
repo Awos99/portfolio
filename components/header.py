@@ -33,7 +33,7 @@ nav = dbc.Nav(
         dbc.NavItem(dbc.NavLink("Home", href="/")),
         dbc.NavItem(dbc.NavLink("About", href="/about")),
         dbc.NavItem(dbc.NavLink("Portfolio", href="/portfolio")),
-        dbc.NavItem(dbc.NavLink("Contact", href="/contact")),
+        #dbc.NavItem(dbc.NavLink("Contact", href="/contact")),
     ],
     justified=True,
     navbar=True
@@ -71,7 +71,8 @@ navbar = dbc.Navbar(
     style={
         "backgroundColor": 'rgb(245, 244, 242)',
         'border': '1px solid rgb(215, 207, 193)',
-    }
+    },
+    class_name="rounded-4 mt-2 mb-4 me-4 ms-4",
     #color="dark",
     #dark=True,
 )

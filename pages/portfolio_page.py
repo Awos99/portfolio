@@ -16,6 +16,8 @@ import os
 
 # Run the task using the asyncio event loop
 def run_asyncio_task(task):
+    global df_repos
+    df_repos = pd.read_csv("static/repos.csv")
     asyncio.run(task)
 
 thread = Thread(target=run_asyncio_task, args=(get_repos_5h(),))
@@ -128,18 +130,9 @@ def repository_card(src, title, text, readme=None, url_github=None):
         style={'text-align': 'right'}
 
     )
+    print('before creating callback')
     
-    if modal_id+'.is_open' not in app.callback_map:
-        
-        @app.callback(
-            Output(modal_id, "is_open"),
-            [Input(open_id, "n_clicks"), Input(close_id, "n_clicks")],
-            [State(modal_id, "is_open")],
-        )
-        def toggle_modal(n1, n2, is_open):
-            if n1 or n2:
-                return not is_open
-            return is_open
+    
     
     card_img=dbc.CardImg(src=src, 
                         top=True,
@@ -177,6 +170,22 @@ def repository_card(src, title, text, readme=None, url_github=None):
                 'border': '1px solid rgb(215, 207, 193)',
                 },
     )
+
+for title in df_repos["name"]:
+    print(title)
+    modal_id = "modal" + title.replace('.', '').replace('{', '')
+    open_id = "open" + title.replace('.', '').replace('{', '')
+    close_id = "close" + title.replace('.', '').replace('{', '')
+    @app.callback(
+        Output(modal_id, "is_open"),
+        [Input(open_id, "n_clicks"), Input(close_id, "n_clicks")],
+        [State(modal_id, "is_open")],
+    )
+    def toggle_modal(n1, n2, is_open):
+        if n1 or n2:
+            return not is_open
+        return is_open
+
 
 def repositories_matrix(df_interests):
     num_interests = len(df_interests)

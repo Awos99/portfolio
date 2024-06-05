@@ -1,8 +1,9 @@
 import dash_bootstrap_components as dbc
-from dash import Input, Output, State, html
+from dash import Input, Output, State, html, dcc
 from dash_bootstrap_components._components.Container import Container
 import pandas as pd
 from app import app
+
 
 
 profile_img = html.Img(src="../static/profile.jpg", 
@@ -94,7 +95,8 @@ container = dbc.Container(
                                 ),
                             ],
                         ),
-                        html.Button("My Projects", className="btn btn-primary btn-lg"),
+                        dcc.Link(html.Button("My Projects", className="btn btn-primary btn-lg"),
+                                 href="/portfolio"),
                     ],
                     width=6,
                 ),

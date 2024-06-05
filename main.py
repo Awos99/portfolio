@@ -28,10 +28,8 @@ def display_page(pathname):
         return get_about_page()
     elif pathname == '/portfolio':
         return get_portfolio_page()
-    elif pathname == '/huck':
-        return get_huck_page()
     else:
-        return dbc.Jumbotron(
+        return html.Div(
             [
                 html.H1("404: Not found", className="text-danger"),
                 html.Hr(),
