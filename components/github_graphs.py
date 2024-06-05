@@ -3,18 +3,27 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 from datetime import datetime
+import ast
 
 def heatmap_github(df_repos):
     # Flatten the data to get a DataFrame with each commit date and corresponding repository
+
+    for i in range(len(df_repos)):
+        try:
+            if type(df_repos.at[i, 'commits']) != 'list':
+                df_repos.at[i, 'commits'] = ast.literal_eval(df_repos.at[i, 'commits'])
+        except ValueError:
+            pass
+
     flat_data = []
     for index, row in df_repos.iterrows():
         for commit_date in row['commits']:
             flat_data.append({'date': commit_date, 'repository': row['name']})
 
     df_flat = pd.DataFrame(flat_data)
-
+    print(df_flat['date'])
     # Convert 'date' column to datetime format with day-first format
-    df_flat['date'] = pd.to_datetime(df_flat['date'], format='%d-%m-%Y')
+    df_flat['date'] = pd.to_datetime(df_flat['date'], format='%d-%m-%Y', errors='coerce')
 
     # Create a date range for the last year
     end_date = df_flat['date'].max()
