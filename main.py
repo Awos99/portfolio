@@ -1,4 +1,4 @@
-#from app import app
+from app import app
 from components.header import get_header
 from components.footer import get_footer
 import dash_bootstrap_components as dbc
@@ -8,8 +8,7 @@ from dash import Dash, dcc, html, Input, Output, callback, State
 import os
 from pages.about_page import get_about_page
 
-app = Dash(__name__, external_stylesheets= ["/assets/bootstrap.css"])
-server = app.server
+
 
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
