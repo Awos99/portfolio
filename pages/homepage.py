@@ -2,7 +2,7 @@ import dash_bootstrap_components as dbc
 from dash import Input, Output, State, html, dcc
 from dash_bootstrap_components._components.Container import Container
 import pandas as pd
-from app import app
+from server_app import app
 
 
 

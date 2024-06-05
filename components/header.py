@@ -1,7 +1,7 @@
 import dash_bootstrap_components as dbc
 from dash import Input, Output, State, html
 from dash_bootstrap_components._components.Container import Container
-from app import app
+from server_app import app
 
 #PLOTLY_LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
 

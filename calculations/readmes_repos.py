@@ -3,7 +3,7 @@ import os
 import base64
 import pandas as pd
 import asyncio
-from app import app
+from server_app import app
 
 try:
     path="GITHUB_KEY.txt"

@@ -6,7 +6,7 @@ import asyncio
 from calculations.readmes_repos import get_repos_5h, get_number_followers
 from calculations.cohere_search import search_repositories
 import ast
-from app import app
+from server_app import app
 from threading import Thread
 from components.github_graphs import heatmap_github, languages_github
 import os

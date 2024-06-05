@@ -1,4 +1,4 @@
-from app import app
+from server_app import app
 from components.header import get_header
 from components.footer import get_footer
 import dash_bootstrap_components as dbc
