@@ -25,6 +25,7 @@ thread.daemon = True
 thread.start()
 
 df_repos = pd.read_csv("static/repos.csv")
+print(df_repos)
 df_repos['topics'] = df_repos['topics'].apply(ast.literal_eval)
 df_repos['commits'] = df_repos['commits'].apply(ast.literal_eval)
 df_repos['owner'] = df_repos['owner'].apply(ast.literal_eval)
