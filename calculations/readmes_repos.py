@@ -16,7 +16,7 @@ headers = {
     "Authorization": 'Bearer ' + os.environ["GITHUB_KEY"],
 }
 
-print(headers)
+
 
 
 
