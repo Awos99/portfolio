@@ -224,7 +224,7 @@ def languages_github(df_repos):
             customdata=customdata,
             hovertemplate="<b>Language</b>: %{y}<br>" +
                 "<b>Number of Repositories</b>: %{x}<br>" +
-                "<b>Repository Names</b>: %{customdata[0]}<br>" +
+                #"<b>Repository Names</b>: %{customdata[0]}<br>" +
                 "<b>Total Stars</b>: %{customdata[1]}<br>" +
                 "<b>Total Watchers</b>: %{customdata[2]}<br>" +
                 "<b>Topics</b>: %{customdata[3]}<br>" +
