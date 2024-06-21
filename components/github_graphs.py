@@ -205,7 +205,7 @@ def languages_github(df_repos):
         #'name': lambda x: '<br>          '.join(x.tolist()),
         'stargazers_count': 'sum',
         'watchers_count': 'sum',
-        'topics': lambda x: '<br>          '.join(list(set([item for sublist in x.tolist() for item in sublist])))
+        'topics': lambda x: ', '.join(list(set([item for sublist in x.tolist() for item in sublist])))
 
     })
 
