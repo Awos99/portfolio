@@ -414,7 +414,7 @@ Please try the app here:
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dataframe-nl.streamlit.app/)
 ","['20-05-2024', '20-05-2024', '20-05-2024', '19-05-2024', '19-05-2024', '19-05-2024']"
-10,portfolio,Awos99/portfolio,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/portfolio,https://api.github.com/repos/Awos99/portfolio,"Portfolio website built with Dash, integrating the GitHub API for dynamic project display and Cohere for an enhanced search function, providing a seamless and interactive user experience.",https://github.com/Awos99/portfolio,2024-05-22T21:24:53Z,2024-06-21T16:50:24Z,https://www.amoswolf.com,Python,1,1,"['cohere', 'dash', 'github']",1,# portfolio,"['21-06-2024', '21-06-2024', '21-06-2024', '21-06-2024', '21-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '30-05-2024', '29-05-2024', '28-05-2024', '26-05-2024', '26-05-2024', '25-05-2024', '25-05-2024', '24-05-2024', '24-05-2024', '24-05-2024', '24-05-2024', '23-05-2024', '22-05-2024', '22-05-2024', '22-05-2024']"
+10,portfolio,Awos99/portfolio,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/portfolio,https://api.github.com/repos/Awos99/portfolio,"Portfolio website built with Dash, integrating the GitHub API for dynamic project display and Cohere for an enhanced search function, providing a seamless and interactive user experience.",https://github.com/Awos99/portfolio,2024-05-22T21:24:53Z,2024-07-14T19:13:50Z,https://www.amoswolf.com,Python,1,1,"['cohere', 'dash', 'github']",1,# portfolio,"['14-07-2024', '21-06-2024', '21-06-2024', '21-06-2024', '21-06-2024', '21-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '05-06-2024', '30-05-2024', '29-05-2024', '28-05-2024', '26-05-2024', '26-05-2024', '25-05-2024', '25-05-2024', '24-05-2024', '24-05-2024', '24-05-2024', '24-05-2024', '23-05-2024', '22-05-2024', '22-05-2024']"
 11,Query-SQL-Databases-with-Natural-Language,Awos99/Query-SQL-Databases-with-Natural-Language,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Query-SQL-Databases-with-Natural-Language,https://api.github.com/repos/Awos99/Query-SQL-Databases-with-Natural-Language,"This tool uses an SQL Agent from LangChain and ChatGPT-3.5 to translate natural language queries into SQL commands. Users can modify queries, visualize data, or export it, simplifying database interactions.",https://github.com/Awos99/Query-SQL-Databases-with-Natural-Language,2024-05-13T16:17:24Z,2024-06-06T15:50:26Z,https://sqlqueryawos.streamlit.app/,Python,2,2,"['langchain', 'openai', 'streamlit']",2,"# Query SQL Databases with Natural Language
 
 ![Demo GIF](/static/demo.gif)
@@ -448,7 +448,70 @@ Please, try the app here:
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sqlqueryawos.streamlit.app)
 ","['20-05-2024', '20-05-2024', '20-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024', '13-05-2024']"
-12,Research-Copilot,Awos99/Research-Copilot,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Research-Copilot,https://api.github.com/repos/Awos99/Research-Copilot,Research Assistant integrated with Semantic Scholar and with a RAG functionality.,https://github.com/Awos99/Research-Copilot,2024-07-11T08:34:05Z,2024-07-11T08:34:05Z,,,0,0,[],0,Failed to fetch README: 404,"['23-06-2024', '22-06-2024', '22-06-2024', '22-06-2024', '22-06-2024', '21-06-2024', '12-06-2024']"
+12,Research-Copilot,Awos99/Research-Copilot,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Research-Copilot,https://api.github.com/repos/Awos99/Research-Copilot,Research Assistant integrated with Semantic Scholar and with a RAG functionality.,https://github.com/Awos99/Research-Copilot,2024-07-11T08:34:05Z,2024-07-14T19:52:15Z,,Python,0,0,[],0,"# Research Copilot with RAG Chat
+
+Research Copilot is an interactive web application designed to assist with research tasks using advanced language models and semantic analysis. Built using Streamlit, it provides an intuitive interface for processing and analyzing text inputs to extract key topics, search academic databases, visualize relationships, and interact through a chat interface.
+
+## Features
+
+-   **Topic Extraction**:
+
+    -   Input a description of your research topic.
+    -   Extract five key topics using GEMINI 1.5 FLASH.
+
+-   **Paper Search**:
+
+    -   Search for relevant academic papers in the Semantic Scholar database based on the extracted topics.
+
+-   **Network Graph**:
+
+    -   Visualize the relationships between the found papers in a network graph to understand their connections and relevance.
+
+-   **Chat Functionality**:
+    -   Switch to the chat page to interact with the language model.
+    -   Web scrape the found papers and chunk them for detailed analysis.
+    -   Use Cohere Rerank and Command R for contextually enriched responses via Retrieval-Augmented Generation (RAG).
+
+## Installation
+
+1. **Clone the repository**:
+
+    ```sh
+    git clone https://github.com/Awos99/Research-Copilot.git
+    cd Research-Copilot
+    ```
+
+2. **Install the required packages**:
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. **Add API keys**:
+    - Obtain API keys for the necessary services (GEMINI, Cohere, Semantic Scholar).
+    - Create the following files in the root directory and add your keys:
+        - `COHERE_KEY.txt`
+        - `GEMINI_KEY.txt`
+        - `S2_API_KEY.txt`
+
+## Usage
+
+1. **Run the Streamlit application**:
+
+    ```sh
+    streamlit run app.py
+    ```
+
+2. **Interact with the application**:
+    - **Main Page**: Enter a description of your research topic and click ""Process Text"" to extract key topics.
+    - **Sidebar Options**: Select various options to customize your research process (WIP).
+    - **Visualization**: View the network graph of related papers.
+    - **Chat Page**: Switch to chat mode to interact with the language model, scrape papers, and receive contextually enriched responses.
+
+Please, try the app here:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://research-rag.streamlit.app/)
+","['14-07-2024', '23-06-2024', '22-06-2024', '22-06-2024', '22-06-2024', '22-06-2024', '21-06-2024', '12-06-2024']"
 13,Wallapop-webscraping,Awos99/Wallapop-webscraping,False,"{'login': 'Awos99', 'id': 111919968, 'node_id': 'U_kgDOBqvDYA', 'avatar_url': 'https://avatars.githubusercontent.com/u/111919968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/Awos99', 'html_url': 'https://github.com/Awos99', 'followers_url': 'https://api.github.com/users/Awos99/followers', 'following_url': 'https://api.github.com/users/Awos99/following{/other_user}', 'gists_url': 'https://api.github.com/users/Awos99/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/Awos99/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/Awos99/subscriptions', 'organizations_url': 'https://api.github.com/users/Awos99/orgs', 'repos_url': 'https://api.github.com/users/Awos99/repos', 'events_url': 'https://api.github.com/users/Awos99/events{/privacy}', 'received_events_url': 'https://api.github.com/users/Awos99/received_events', 'type': 'User', 'site_admin': False}",https://github.com/Awos99/Wallapop-webscraping,https://api.github.com/repos/Awos99/Wallapop-webscraping,This Jupyter notebook provides a detailed tutorial on how to scrape product listings from Wallapop using Python and Selenium.,https://github.com/Awos99/Wallapop-webscraping,2024-04-30T23:11:29Z,2024-06-23T08:32:45Z,,Jupyter Notebook,2,2,[],2,"# Wallapop Web Scraping Notebook
 
 This repository contains a Jupyter notebook titled `Wallapop Webscraping.ipynb`, which demonstrates the process of scraping data from Wallapop. Wallapop is a popular online marketplace for buying and selling second-hand goods. This notebook aims to educate users on how to extract product listings and associated data using automated web scraping techniques.
